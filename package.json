@@ -1,0 +1,27 @@
+{
+  "name": "myanmar-phone-number-validator-ts",
+  "version": "1.2.0",
+  "description": "A TypeScript library to validate and extract information from Myanmar phone numbers.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minmyatoo/myanmar-phone-number-validator-ts.git"
+  },
+  "keywords": [
+    "Myanmar phone number",
+    "myanmar",
+    "phone",
+    "number",
+    "validation"
+  ],
+  "author": "Min Myat Oo <mgminmyatoo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  }
+}
