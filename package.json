@@ -21,7 +21,7 @@
   "author": "Min Myat Oo <mgminmyatoo@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^20.0.0",
+    "@types/node": "^22.0.0",
     "typescript": "^5.0.3"
   }
 }
