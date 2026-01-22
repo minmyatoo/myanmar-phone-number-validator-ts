@@ -1,7 +1,7 @@
-import {MyanmarNumbers, myanmarNumbers} from './MyanmarNumbers';
-import {OperatorRegex, operatorRegex} from './OperatorRegex';
-import {Operators, operators} from './Operators';
-import {NetworkType, networkType} from './NetworkType';
+import { myanmarNumbers } from './MyanmarNumbers';
+import { OperatorRegex, operatorRegex } from './OperatorRegex';
+import { Operators, operators } from './Operators';
+import { NetworkType, networkType } from './NetworkType';
 
 export interface MyanmarPhoneNumber {
     OPERATOR_REGEX: OperatorRegex;
@@ -39,7 +39,7 @@ export const myanmarPhoneNumber: MyanmarPhoneNumber = {
             if (doubleCountryCodeRe.test(phoneNumber)) {
                 phoneNumber = phoneNumber.replace(/9595/, '95');
             }
-            const zeroBeforeAreaCodeRe = /^+?9509\d{7,9}$/;
+            const zeroBeforeAreaCodeRe = /^\+?9509\d{7,9}$/;
             if (zeroBeforeAreaCodeRe.test(phoneNumber)) {
                 phoneNumber = phoneNumber.replace(/9509/, '959');
             }
@@ -127,6 +127,4 @@ export const myanmarPhoneNumber: MyanmarPhoneNumber = {
         }
         return networkType;
     },
-
 };
-

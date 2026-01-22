@@ -8,5 +8,5 @@ export const operators: Operators = {
     MPT: 'MPT',
     MEC: 'MEC',
     MYTEL: 'MyTel',
-    UNKNOWN: 'Unknown'
+    UNKNOWN: 'Unknown',
 };

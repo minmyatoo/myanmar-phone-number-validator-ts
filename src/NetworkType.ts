@@ -7,5 +7,5 @@ export const networkType: NetworkType = {
     WCDMA: 'WCDMA',
     CDMA_450: 'CDMA 450 MHz',
     CDMA_800: 'CDMA 800 MHz',
-    UNKNOWN: 'Unknown'
+    UNKNOWN: 'Unknown',
 };
